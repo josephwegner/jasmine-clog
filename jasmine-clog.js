@@ -2,7 +2,7 @@
 
 	if(typeof(console.log) !== "function") {
 		throw("jasmine-clog: console.log is not defined!");
-		return false
+		return false;
 	}
 
 	if(typeof(jasmine) === "undefined") {
@@ -10,10 +10,10 @@
 		return false;
 	}
 
-	var realLog = console.log
+	var realLog = console.log;
 	console.log = function() { };
 
 	jasmine.clog = function() {
 		realLog.apply(console, arguments);
-	}
+	};
 })();
