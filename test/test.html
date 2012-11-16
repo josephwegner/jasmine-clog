@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>jasmine-clog tests</title>
+	<script type="text/javascript" src="http://pivotal.github.com/jasmine/lib/jasmine.js"></script>
+	<script type="text/javascript" src="../jasmine-clog.js"></script>
+	<script type="text/javascript">
+		console.log("This shouldn't show up in the console.");
+		jasmine.clog("This should show up in the console.");
+
+		jasmine.clog("this", "should", "also", "show");
+		jasmine.clog({
+			give: "",
+			it: "",
+			a: "",
+			"try": "",
+			"with": "",
+			an: "",
+			object: ""
+		});
+	</script>
+</head>
+<body>
+<h2>Please check your console for the logs</h2>
+</body>
+</html>
