@@ -20,5 +20,5 @@ As of this writing, jasmine-clog has been tested and works in Chrome, Safari, an
 
 To run tests yourself, check out the `/tests` folder.
 
-**Note: ** Regardless of browser compatability, jasmine-clog should fail gracefully.  You will see an error thrown in your logs, but the rest of your jasmine tests should run successfully.
+**Note:** Regardless of browser compatability, jasmine-clog should fail gracefully.  You will see an error thrown in your logs, but the rest of your jasmine tests should run successfully.
 
